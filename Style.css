@@ -1,0 +1,96 @@
+*{
+    margin: 1em;
+    padding-bottom: 1px;
+    text-align: center;
+}
+body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0f9fa;
+    /* grid-template-columns: auto auto auto auto; */
+    /* gap: 6px; */
+}
+
+header>.book1{
+    background-color: #487a7d;
+    border: 5px solid;
+}
+
+.book1 >h1{
+    text-align: center;
+    color: white;
+}
+.book1>p{
+    color: white;
+    font-size: 30px;
+}
+.book1>p{
+    text-align: center;
+}
+.froom_book{
+    background-color: #50b2b9;
+    color: rgb(255, 255, 255);
+    border: 5px solid #000;
+}
+.froombook>h2{
+    text-align: center;
+    bottom: 2px;
+    padding-bottom: 2em;
+}
+
+.Book_io{
+    /* gap: 1px; */
+    text-align: center;
+}
+/* 
+label ,.inputbookio{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1px;
+} */
+
+label ,.bookcenter{
+padding: 1px auto;
+padding-left: 20px;
+}
+input {
+    padding: 2px;
+}
+
+.Button{
+    padding: 20px;
+}
+.btn{
+    padding: 10px;
+    color: #2d6164; 
+    background-color: #79f173;
+}
+
+button:hover{
+    background-color: #000;
+    color: aliceblue;
+}
+
+.book-search-section{
+    background-color: #87e06c;
+    padding: 1em;
+    display: flow-root;
+    border: 5px solid #000;
+    color: white;
+}
+
+.input-box{
+    padding: 3pt;
+    padding-bottom: 5px;
+}
+
+.bookshelf-section{
+    background-color: rgb(182, 232, 55);
+    border: 5px solid;
+}
+
+.bookshelf-section,h2{
+    /* margin-bottom: 1px;   */
+    padding-top: 1px;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=DynaPuff:wght@500&family=Gothic+A1&family=Heebo:wght@300&family=Lato:ital,wght@0,100;1,100&family=M+PLUS+1p:wght@300&family=Roboto:ital,wght@1,100&family=Rubik&family=Varela+Round&display=swap" rel="stylesheet">
+        <title>Bookio</title>
+    </head>
+    <body>
+        <header>
+        <div class="book1">
+            <h1>Bookio</h1>
+            <p> Selamat datang Di Bookio</p>
+        </div>
+    </header>
+    <!-- bagian input Form -->
+    <main>
+        <section class="froom_book">
+            <div class="froombook">
+                <h2>Masukan Data Buku Anda</h2>
+                <form class="Book io" id="bookform">
+                    <div id="frombook">
+                        <label  class="bookcenter" for="JudulBuku">Judul</label>
+                        <input class="Inputbookio" id="judulBuku"type="text" required placeholder="Judul Penulis">
+                    </div>
+                    <div class="nama_penulis">
+                        <label claas="bookcenter" for="namapenulis">Penulis</label>
+                        <input class="inputbookio" id="namapenulis"type="text" required placeholder="Nama Penulis">
+                    </div>
+                    <div class="nama_tahun">
+                        <label class="bookcenter" for="namatahun">Tahun</label>
+                        <input class="InputBookio" id="namatahun"type="text" required placeholder="Masukan Tahun">
+                    </div>
+                    <div class="book-input-is-finished">
+                        <label for="bookInputIsFinished">Telah selesai dibaca</label>
+                        <input id="bookInputIsFinished" type="checkbox">
+                    </div>
+                    <div class="Button">
+                        <button class="btn" type="submit" value="submit" id="bookbutton">Tampilkan</button>
+                    </div>  
+                </form>
+            </div>
+        </section>
+
+        <section class="bookshelf-section">
+            <h2>Belum dibaca </h2>
+            <div id="bookUnfinishedReadingList" class="book-list">
+            </div>
+        </section>
+        <section class="bookshelf-section">
+            <h2>Sudah dibaca </h2>
+            <div id="bookFinishedReadingList" class="book-list">
+            </div>
+        </section>
+    </main>
+    <script>
+        alert("Apakah kamu yakin mau Ngisi Bookio ini")
+    </script>
+    <script src="js/index.js"></script>
+</body>
+</html>
